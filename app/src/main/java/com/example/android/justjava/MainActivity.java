@@ -6,7 +6,6 @@ package com.example.android.justjava; /**
  *
  */
 
-
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
 import android.view.View;
@@ -18,6 +17,7 @@ import android.widget.Toast;
 /**
  * This app displays an order form to order coffee.
  */
+
 public class MainActivity extends AppCompatActivity {
 
     @Override
@@ -29,6 +29,7 @@ public class MainActivity extends AppCompatActivity {
     /**
      * This method is called when the order button is clicked.
      */
+    
     int numberOfCofees = 1;
 
     public void submitOrder(View view) {
