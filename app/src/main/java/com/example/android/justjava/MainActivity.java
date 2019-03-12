@@ -44,10 +44,7 @@ public class MainActivity extends AppCompatActivity {
         String name = nameEditText.getText().toString();
         return name;
     }
-
-
-
-
+    
     public void increment(View view) {
         numberOfCofees=numberOfCofees+1;
         display( numberOfCofees);
@@ -108,15 +105,15 @@ public class MainActivity extends AppCompatActivity {
         return hasChocolate;
     }
 
-
-
     /**
      * This method displays the given quantity value on the screen.
      */
+    
     private void display(int noOfCofees) {
         TextView quantityTextView = (TextView) findViewById(R.id.quantity_text_view);
         quantityTextView.setText("" + noOfCofees);
     }
+    
     /**
      * This method displays the given price on the screen.
      */
