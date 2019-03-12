@@ -44,15 +44,7 @@ public class MainActivity extends AppCompatActivity {
         return name;
     }
 
-//    public void composeEmail(String text) {
-//        Intent intent = new Intent(Intent.ACTION_SENDTO);
-//        intent.setData(Uri.parse("mailto:")); // only email apps should handle this
-//        intent.putExtra(Intent.EXTRA_TEXT, text);
-//        intent.putExtra(Intent.EXTRA_SUBJECT, "Coffee summary for  " + Edit() );
-//        if (intent.resolveActivity(getPackageManager()) != null) {
-//            startActivity(intent);
-//        }
-//    }
+
 
 
     public void increment(View view) {
