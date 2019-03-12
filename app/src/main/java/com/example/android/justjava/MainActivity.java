@@ -117,13 +117,13 @@ public class MainActivity extends AppCompatActivity {
     /**
      * This method displays the given price on the screen.
      */
+    
     private String displayPrice(String  priceMessage) {
         TextView priceTextView = (TextView) findViewById(R.id.orderSummary_text_view);
         priceTextView.setText(priceMessage);
         priceTextView.setTextSize(22);
         return(priceMessage);
     }
-
 }
 
 
