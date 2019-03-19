@@ -1,2 +1,2 @@
-# JustJava
+## JustJava
 Basic coffee ordering app 
