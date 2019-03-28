@@ -1,10 +1,5 @@
 package com.example.android.justjava; /**
- * IMPORTANT: Add your package below. Package name can be found in the project's AndroidManifest.xml file.
- * This is the package name our example uses:
- *
- * package com.example.android.justjava;
- *
- */
+
 
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
